@@ -6,6 +6,8 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://vite.dev/config/
 export default defineConfig({
+
+  base: "/react-tailwind-personal-portfolio/",
   plugins: [react(), tailwindcss()],
 
   // resolve: {
