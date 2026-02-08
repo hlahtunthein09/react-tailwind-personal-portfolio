@@ -5,9 +5,10 @@ import tailwindcss from '@tailwindcss/vite';
 
 
 // https://vite.dev/config/
-export default defineConfig({
+export default defineConfig(({ mode }) =>({
 
-  base: "/react-tailwind-personal-portfolio/",
+  // base: "/react-tailwind-personal-portfolio/",
+  base: mode === "gh" ? "/react-tailwind-personal-portfolio/" : "/",
   plugins: [react(), tailwindcss()],
 
   // resolve: {
@@ -17,4 +18,4 @@ export default defineConfig({
   // }
 
 
-})
+}));
