@@ -84,7 +84,7 @@ const Testimonials = () => {
 
               <div className="flex items-center gap-4">
                 <img
-                  src={testimonials[activeIndex].avatar}
+                  src={`${import.meta.env.BASE_URL}${testimonials[activeIndex].avatar}`}
                   alt={testimonials[activeIndex].author}
                   className="w-14 h-14 rounded-full object-cover ring-2 ring-primary/20"
                 />

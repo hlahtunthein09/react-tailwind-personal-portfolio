@@ -40,7 +40,7 @@ const Hero = () => {
       <section className='relative min-h-screen flex items-center overflow-hidden'>
           <div className='absolute inset-0'>
             <img 
-              src='/hero-bg.png'
+              src={`${import.meta.env.BASE_URL}/hero-bg.png`}
               alt='Hero image'
               className='w-full h-full object-cover opacity-40'
             />
@@ -140,7 +140,8 @@ const Hero = () => {
                     />
                     <div className='relative glass rounded-3xl p-2 glow-border'>
                         <img 
-                            src='/profile.jpg' alt='Pedro Machado' 
+                            src={`${import.meta.env.BASE_URL}/profile.jpg`} 
+                            alt='Hla Htun Thein' 
                             className='w-full aspect-4/5 object-cover rounded-2xl'
                         />
 
