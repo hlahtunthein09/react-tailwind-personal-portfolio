@@ -8,7 +8,7 @@ const projects = [
       title: "E-Commerce Project",
       description:
         "A full-stack e-commerce web application that allows users to browse products, search items, and manage a shopping cart in real time.",
-      image: "/images/projects/project1.png",
+      image: "images/projects/project1.png",
       tags: ["React", "TypeScript", "NodeJS", "Tailwind"],
       link: "#",
       github: "#",
@@ -18,30 +18,30 @@ const projects = [
       title: "Digital Clock",
       description:
         "A digital clock that displays real-time local time and live temperature based on the user’s location.",
-      image: "/images/projects/project2.png",
+      image: "images/projects/project2.png",
       tags: ["React", "Tailwind"],
       link: "#",
-      github: "#",
+      github: "https://github.com/hlahtunthein09/digital-clock.git",
     },
 
     {
       title: "CSS Image Carousel",
       description:
         "A responsive frontend image carousel with smooth navigation and adaptive layouts across different screen sizes.",
-      image: "/images/projects/project3.png",
+      image: "images/projects/project3.png",
       tags: ["React", "Tailwind"],
       link: "#",
-      github: "#",
+      github: "https://github.com/hlahtunthein09/react-image-carousel.git",
     },
 
     {
       title: "Portfolio Project",
       description:
         "A responsive personal portfolio website showcasing projects, skills, and contact information with clean modern design.",
-      image: "/images/projects/project4.png",
+      image: "images/projects/project4.png",
       tags: ["React", "Tailwind"],
       link: "#",
-      github: "#",
+      github: "https://github.com/hlahtunthein09/my-portfolio-website_1.git",
     },  
 ]
 

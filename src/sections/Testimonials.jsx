@@ -7,28 +7,28 @@ const testimonials = [
     quote: "Outstanding work on our React application. Htun delivered a high-performance, well-structured, and user-friendly solution that significantly improved the overall experience and reliability of our product.",
     author: "Myat Min Phyo",
     role: "CTO, TechStart Inc.",
-    avatar: "/images/testimonials/person1.jpg",
+    avatar: "images/testimonials/person1.jpg",
   },
 
   {
     quote: "Working with Htun was a game-changer for our project. His technical skills, creativity, and reliability helped us overcome challenges and deliver high-quality results on time.",
     author: "Zay Khant Linn",
     role: "Product Manager, Digital Innovations.",
-    avatar: "/images/testimonials/person2.jpg",
+    avatar: "images/testimonials/person2.jpg",
   },
 
   {
     quote: "Htun transformed our vision into reality with a stunning, user-friendly interface that was both intuitive and polished.",
     author: "Zeyar Paing",
     role: "Founder, StartupHub.",
-    avatar: "/images/testimonials/person3.jpg",
+    avatar: "images/testimonials/person3.jpg",
   },
 
   {
     quote: "Incredible expertise in React and modern web technologies, consistently delivering fast, reliable, and maintainable solutions.",
     author: "Wai Phyo Naing",
     role: "Lead Developer, WebSolutions Co.",
-    avatar: "/images/testimonials/person4.jpg",
+    avatar: "images/testimonials/person4.jpg",
   }
 ]
 
