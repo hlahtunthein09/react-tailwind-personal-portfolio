@@ -1,9 +1,10 @@
 import { Download } from 'lucide-react'
 import React from 'react'
 
-const AnimatedBorderButton = ({ children }) => {
+const AnimatedBorderButton = ({ children, onClick }) => {
   return (
     <button 
+        onClick={onClick}
         className="relative group px-8 py-4 bg-transparent text-lg font-medium 
            text-foreground rounded-full border border-border 
            hover:border-primary/50 transition-all duration-1000 

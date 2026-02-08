@@ -25,6 +25,7 @@ const skills = [
 ];
 
 
+
 const dots = [...Array(30)].map(() => (
   {
     left: `${Math.random() * 100}%`,
@@ -101,7 +102,11 @@ const Hero = () => {
                   {/* CTA Buttons */}
                   <div className='flex flex-wrap gap-4 animate-fade-in animation-delay-300'>
                       <Button size='lg'>Contact Me <ArrowRight className='w-5 h-5' /></Button>
-                      <AnimatedBorderButton>
+                      <AnimatedBorderButton 
+                        onClick={() => {
+                          window.open(`${import.meta.env.BASE_URL}resume.pdf`, "_blank");
+                        }}
+                      >
                         <Download className='w-5 h-5' />
                          Download CV
                       </AnimatedBorderButton>
@@ -112,9 +117,9 @@ const Hero = () => {
                     <span className='text-sm text-muted-foreground'>Follow me: </span>
 
                     {[
-                      {icon: Github, href: "#"},
-                      {icon: Linkedin, href: "#"},
-                      {icon: Facebook, href: "#"},
+                      {icon: Github, href: "https://github.com/hlahtunthein09"},
+                      {icon: Linkedin, href: "www.linkedin.com/in/hlahtun-thein-b7ab56206"},
+                      {icon: Facebook, href: "https://www.facebook.com/hla.h.thein.33"},
                     ].map((social, index) => (
                       // Since , those are Lucide icons, we have to use in tag no as variable
                       <a 
